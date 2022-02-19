@@ -167,6 +167,7 @@ def app():
                 \n{the_book.title} by {the_book.author}
                 \rPublished: {the_book.published_date}
                 \rPrice: ${the_book.price / 100}''')
+            input('Press enter to return to the main menu.')
         elif choice == '4':
             # book analysis
             pass
